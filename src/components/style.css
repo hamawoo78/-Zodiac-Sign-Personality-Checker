@@ -1,0 +1,284 @@
+
+@font-face {
+    font-family: 'White_Star';
+    src: url('../assets/fonts/WhiteStar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'DMSands_Italic';
+    src: url('../assets/fonts/DMSans-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'DMSands_VariablrFont';
+    src: url('../assets/fonts/DMSans-VariableFont_opsz_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+  
+
+  @media screen and (max-width: 940px) {
+    #container {
+        width: 100%; /* Adjust as needed */
+    }
+    .zodiacSign {
+        flex-basis: 45%; /* Adjust as needed */
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.backToPrivPage{
+    background-color: #423A38;
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 0 0 20px;
+}
+
+.backToPrivPage a{
+    color: #ffffff;
+}
+h1, h3{
+    margin: 3px;
+}
+h1{
+    padding: 60px 0 0 0 ;
+}
+
+h3 title{
+    padding: 0 0 50px 0 ;
+}
+
+#container{
+    background-color: #423A38;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    font-family: "Playfair Display", serif; 
+}
+
+.signContainer{
+    display: flex;
+    flex-wrap: wrap;            
+    width: 100%;
+    justify-content: center;  
+    align-items: center; 
+}
+
+.zodiacSign{
+    flex: 1 0 30%;               
+    margin: auto;                   
+    box-sizing: border-box;         
+    text-align: center;             
+    padding: 3px;                 
+}
+
+.zodiacSign img{
+    width: 50%;
+}
+#sign_name {
+    font-family: 'White_Star', sans-serif;
+    color: #ffffff;
+    font-size: 70%;
+}
+
+#title {
+    /* font-size: 80%; */
+    color: #ffffff;
+}
+
+#date{
+    color: #ffffff;
+    font-size: 60%;
+}
+
+#button{
+    background-color: #9d9d9d;
+    margin: 20px 0 20px 10px;
+    display: flex;
+    align-items: start;
+}
+
+#button a{
+    color: #ffffff;
+}
+
+/* signDeatail */
+img{
+    width: 50%;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .content p{
+    /* min-height: 100px; */
+    padding: 0 25px;
+  }
+  
+  .prevDetail, .nextDetail {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .prevDetail {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .nextDetail {
+    position: absolute;
+    right: 10px;
+  }
+  .work-section {
+    height: 130px;
+    padding: 10px 0 0 0;
+    border: 1px solid #6D7B8D;
+    border-radius: 10px;
+    background-color: #6D7B8D;
+  }
+  
+  .love-section {
+    height: 130px;
+    padding: 10px 0 0 0;
+    border: 1px solid #C62343;
+    border-radius: 10px;
+    background-color: #C62343;
+  }
+  
+  .money-section {
+    height: 130px;
+    padding: 10px 0 0 0;
+    border: 1px solid #B8860B;
+    border-radius: 10px;
+    background-color: #B8860B;
+  }
+
+  .dailyPrediction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prediction {
+    text-align: center; 
+    margin: 10px 35px; 
+    padding: 0 0 50px;    
+    display: block;
+  }
+  
+
+
+  /* FriendList Style */
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.friendContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* margin: 35px; */
+}
+
+
+#friends{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friendContainer table{
+    background-color: #4c5157;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.friendContainer .zodiacSign img {
+    width: 90px; 
+    height: auto; 
+}
+.friendContainer td{
+    padding: 5px;
+    border-bottom: 5px solid #423A38;
+}
+.friendContainer .bd{
+    width: 90px;
+}
+
+.friendContainer button{
+    background-color: #4c5157;
+}
+
+
+/* Register style sheet */
+.form_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 100px;
+}
+
+label, form button{
+    font-family: "DMSands_VariablrFont",serif;
+}
+
+input, select{
+    height: 25px;
+    background-color: #a3a3a3;
+    width: 190px;
+    border-radius: 5px;
+}
+
+.inputs{
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25px;
+    margin: 7px;
+    text-align: center;
+    width: 190px;
+}

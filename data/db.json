@@ -1,0 +1,161 @@
+{
+  "horoscopes": [
+    {
+      "id": "1",
+      "sign": "Aries",
+      "date": "March 21 - April 20",
+      "type": "Fire",
+      "general": "Courageous, determined, confident, enthusiastic, optimistic, honest, passionate.",
+      "work": "Natural leaders, assertive, goal-oriented, willing to take risks.",
+      "love_relationship": "Adventurous, passionate, affectionate, and sometimes impulsive.",
+      "money": "Bold in financial ventures, prefers to invest in high-risk, high-reward opportunities."
+    },
+    {
+      "id": "2",
+      "sign": "Taurus",
+      "date": "April 21 - May 20",
+      "type": "Earth",
+      "general": "Reliable, patient, practical, devoted, responsible, stable.",
+      "work": "Persistent, hardworking, enjoys security and stability in the workplace.",
+      "love_relationship": "Loyal, romantic, values long-term relationships and physical affection.",
+      "money": "Prudent with finances, prefers saving and investing in safe, tangible assets."
+    },
+    {
+      "id": "3",
+      "sign": "Gemini",
+      "date": "May 21 - June 20",
+      "type": "Air",
+      "general": "Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas.",
+      "work": "Excellent communicators, versatile, thrives in dynamic and flexible work environments.",
+      "love_relationship": "Charming, playful, values intellectual connection, and enjoys variety.",
+      "money": "Resourceful, enjoys multiple income streams, can be impulsive with spending."
+    },
+    {
+      "id": "4",
+      "sign": "Cancer",
+      "date": "June 21 - July 22",
+      "type": "Water",
+      "general": "Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive.",
+      "work": "Dedicated, works well in supportive roles, values work-life balance.",
+      "love_relationship": "Nurturing, protective, deeply emotional, seeks security and loyalty.",
+      "money": "Cautious with finances, prefers saving for future security, values financial stability."
+    },
+    {
+      "id": "5",
+      "sign": "Leo",
+      "date": "July 23 - August 22",
+      "type": "Fire",
+      "general": "Creative, passionate, generous, warm-hearted, cheerful, humorous.",
+      "work": "Confident leaders, thrives in roles with visibility and recognition.",
+      "love_relationship": "Romantic, affectionate, seeks admiration and loyalty in relationships.",
+      "money": "Generous with finances, enjoys luxury and spending on loved ones, confident investors."
+    },
+    {
+      "id": "6",
+      "sign": "Virgo",
+      "date": "August 23 - September 22",
+      "type": "Earth",
+      "general": "Loyal, analytical, kind, hardworking, practical.",
+      "work": "Detail-oriented, excels in analytical and organizational roles.",
+      "love_relationship": "Devoted, values communication and intellectual connection, sometimes reserved.",
+      "money": "Practical with finances, careful planners, prefers stability and detailed budgeting."
+    },
+    {
+      "id": "7",
+      "sign": "Libra",
+      "date": "September 23 - October 22",
+      "type": "Air",
+      "general": "Cooperative, diplomatic, gracious, fair-minded, social.",
+      "work": "Skilled negotiators, excels in roles requiring teamwork and diplomacy.",
+      "love_relationship": "Romantic, values harmony and partnership, seeks balance in relationships.",
+      "money": "Balanced approach to finances, enjoys spending on aesthetics and social events."
+    },
+    {
+      "id": "8",
+      "sign": "Scorpio",
+      "date": "October 23 - November 21",
+      "type": "Water",
+      "general": "Resourceful, brave, passionate, stubborn, a true friend.",
+      "work": "Intense and focused, excels in investigative and research roles.",
+      "love_relationship": "Deeply passionate, values loyalty and emotional connection, sometimes possessive.",
+      "money": "Strategic with finances, enjoys investing in transformative and growth-oriented ventures."
+    },
+    {
+      "id": "9",
+      "sign": "Sagittarius",
+      "date": "November 22 - December 21",
+      "type": "Fire",
+      "general": "Generous, idealistic, great sense of humor.",
+      "work": "Thrives in dynamic and adventurous roles, values freedom and exploration.",
+      "love_relationship": "Adventurous, seeks intellectual and physical connection, values independence.",
+      "money": "Optimistic with finances, willing to take risks for potential high rewards."
+    },
+    {
+      "id": "10",
+      "sign": "Capricorn",
+      "date": "December 22 - January 19",
+      "type": "Earth",
+      "general": "Responsible, disciplined, self-control, good managers.",
+      "work": "Ambitious, excels in leadership and managerial roles, values structure.",
+      "love_relationship": "Committed, seeks long-term relationships, values stability and loyalty.",
+      "money": "Prudent and disciplined with finances, long-term planners, values financial security."
+    },
+    {
+      "id": "11",
+      "sign": "Aquarius",
+      "date": "January 20 - February 18",
+      "type": "Air",
+      "general": "Progressive, original, independent, humanitarian.",
+      "work": "Innovative thinkers, excels in roles involving creativity and social change.",
+      "love_relationship": "Independent, values intellectual connection, seeks unconventional relationships.",
+      "money": "Unconventional approach to finances, enjoys investing in futuristic and innovative ventures."
+    },
+    {
+      "id": "12",
+      "sign": "Pisces",
+      "date": "February 19 - March 20",
+      "type": "Water",
+      "general": "Compassionate, artistic, intuitive, gentle, wise, musical.",
+      "work": "Creative and empathetic, excels in artistic and healing roles.",
+      "love_relationship": "Romantic, seeks deep emotional and spiritual connection, very compassionate.",
+      "money": "Intuitive with finances, prefers spending on creative and charitable causes."
+    }
+  ],
+  "friends": [
+    {
+      "id": "d9a6",
+      "name": "Nae 1 1",
+      "sign": "Aquarius",
+      "birthday": "2024-01-25",
+      "signID": 11
+    },
+    {
+      "id": "e28e",
+      "name": "Node33",
+      "sign": "Gemini",
+      "birthday": "2024-06-18",
+      "signID": 3
+    },
+    {
+      "id": "81f1",
+      "name": "Mario",
+      "sign": "Pisces",
+      "birthday": "1990-03-07",
+      "signID": 12
+    },
+    {
+      "id": "17d2",
+      "name": "Raquel",
+      "sign": "Sagittarius",
+      "birthday": "2013-11-25",
+      "signID": 9
+    },
+    {
+      "id": "baf6",
+      "name": "Nae",
+      "sign": "Capricorn",
+      "birthday": "1994-12-23",
+      "signID": 10
+    }
+  ]
+}
